@@ -1,25 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-02T21:30:59 IST" name="Default suite" finished-at="2025-04-02T21:31:10 IST" duration-ms="10983">
+  <suite started-at="2025-04-03T21:46:55 IST" name="Suite" finished-at="2025-04-03T21:47:30 IST" duration-ms="34724">
     <groups>
     </groups>
-    <test started-at="2025-04-02T21:30:59 IST" name="Default test" finished-at="2025-04-02T21:31:10 IST" duration-ms="10983">
+    <test started-at="2025-04-03T21:46:55 IST" name="ChromeTest" finished-at="2025-04-03T21:47:30 IST" duration-ms="34724">
       <class name="test.TC_001_SignupTest">
-        <test-method is-config="true" signature="launchingAndLoadingURL()[pri:0, instance:test.TC_001_SignupTest@2b662a77]" started-at="2025-04-02T21:30:59 IST" name="launchingAndLoadingURL" finished-at="2025-04-02T21:31:08 IST" duration-ms="8941" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_001_SignupTest@3590fc5b]" started-at="2025-04-03T21:46:55 IST" name="setup" finished-at="2025-04-03T21:46:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_001_SignupTest@3590fc5b]" started-at="2025-04-03T21:46:55 IST" name="testDetails" finished-at="2025-04-03T21:46:55 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@3590fc5b]" started-at="2025-04-03T21:46:57 IST" name="launchingAndLoadingURL" finished-at="2025-04-03T21:47:05 IST" duration-ms="7816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="signupTest()[pri:0, instance:test.TC_001_SignupTest@2b662a77]" started-at="2025-04-02T21:31:08 IST" name="signupTest" finished-at="2025-04-02T21:31:10 IST" duration-ms="1561" status="PASS">
+        <test-method signature="sigupTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@3590fc5b]" started-at="2025-04-03T21:47:05 IST" name="sigupTest" data-provider="readData" finished-at="2025-04-03T21:47:15 IST" duration-ms="10299" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DummyTest1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Users]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DummyTestUser002@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DummyTest01]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ValidCredentials]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Contact List]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#signup"}
+  (Session info: MicrosoftEdge=134.0.3124.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4e9f28c662f5fdd1db87735a79703e24, findElement {value=signup, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56511}, msedge: {msedgedriverVersion: 134.0.3124.93 (a9facff5fd6c..., userDataDir: C:\Users\DIGITA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56511/devtoo..., se:cdpVersion: 134.0.3124.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e9f28c662f5fdd1db87735a79703e24]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#signup"}
+  (Session info: MicrosoftEdge=134.0.3124.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4e9f28c662f5fdd1db87735a79703e24, findElement {value=signup, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56511}, msedge: {msedgedriverVersion: 134.0.3124.93 (a9facff5fd6c..., userDataDir: C:\Users\DIGITA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56511/devtoo..., se:cdpVersion: 134.0.3124.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e9f28c662f5fdd1db87735a79703e24
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at pages.HomePage.clickSignup(HomePage.java:24)
+at test.TC_001_SignupTest.sigupTest(TC_001_SignupTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signupTest -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@2b662a77]" started-at="2025-04-02T21:31:10 IST" name="browserClose" finished-at="2025-04-02T21:31:10 IST" duration-ms="333" status="PASS">
+        </test-method> <!-- sigupTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@3590fc5b]" started-at="2025-04-03T21:47:19 IST" name="browserClose" finished-at="2025-04-03T21:47:20 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@3590fc5b]" started-at="2025-04-03T21:47:20 IST" name="launchingAndLoadingURL" finished-at="2025-04-03T21:47:26 IST" duration-ms="6069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="sigupTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@3590fc5b]" started-at="2025-04-03T21:47:26 IST" name="sigupTest" data-provider="readData" finished-at="2025-04-03T21:47:29 IST" duration-ms="2596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DummyTest2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Users]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DummyTestgmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DummyTest02]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[InvalidEmail]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[User validation failed: email: Email is invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sigupTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@3590fc5b]" started-at="2025-04-03T21:47:29 IST" name="browserClose" finished-at="2025-04-03T21:47:30 IST" duration-ms="469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- test.TC_001_SignupTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
