@@ -1,0 +1,49 @@
+Jenkins:
+-------
+
+CI/CD tool -> Continuous Integration and Continuous Deployment
+
+To integrate project with Jenkins:
+
+Step 1: Add Maven-surfire-plugin in pom.xml file
+
+	<build>
+          <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+            <plugins>
+             <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+                <configuration>
+                <suiteXmlFiles>
+					<suiteXmlFile>testng.xml</suiteXmlFile>
+					<suiteXmlFile>testngseq.xml</suiteXmlFile>
+                </suiteXmlFiles>
+               </configuration>
+            </plugin>
+           </plugins>
+         </pluginManagement>
+	    </build>
+
+Step 2: Push the project to GitHub
+
+Step 3: Go to location where your Jenkins is installed (C drive -> program files -> Jenkins) -> open cmd -> execute the cmd ->
+		
+		->> java -jar jenkins.war --httpPort=8081  -> you should get the message "Jenkins is fully up and running". 
+
+Step 4: In Jenkins -> Manage jenkins -> Plugins -> Available plugins -> Maven Integration
+
+
+
+MINUTE HOUR DOM MONTH DOW
+
+DOM - date of month (1-31)
+Month - 1 - 12
+DOW - he day of the week (0–7) where 0 and 7 are Sunday.
+
+
+10:15am Monday to Friday for the entire April month
+
+15 10 * 4 1-5
+
+
