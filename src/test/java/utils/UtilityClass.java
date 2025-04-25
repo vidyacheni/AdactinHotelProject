@@ -1,6 +1,7 @@
 package utils;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -50,36 +51,31 @@ public class UtilityClass {
 		driver.close();
 	}
 	
-	public static String[][] readExcel(String sheetname) throws IOException {
-		
-		XSSFWorkbook book = new XSSFWorkbook("C:\\Users\\Digital Suppliers\\second-workspace\\ContactListApp\\src\\test\\resources\\data\\ContactListTestData.xlsx");
-		XSSFSheet sheet = book.getSheet(sheetname);
-		int rowcount = sheet.getLastRowNum();
-		short columncount = sheet.getRow(0).getLastCellNum();
-		
-		String[][] data = new String[rowcount][columncount];
-		for(int i = 1 ; i <= rowcount; i++) {
-			
-			XSSFRow row = sheet.getRow(i);
-			
-			for(int j = 0; j < columncount; j++) {
-				
-				
-				XSSFCell cell = row.getCell(j);
-				System.out.println(cell.getStringCellValue());
-				data[i-1][j]=cell.getStringCellValue();
-				
-			}
-		}
-		
-		book.close();
-		return data;
+	public String[][] readExcel(String sheetName) throws IOException {
+	    FileInputStream fis = new FileInputStream("src/test/resources/data/ContactListTestData.xlsx");
+	    XSSFWorkbook workbook = new XSSFWorkbook(fis);
+	    XSSFSheet sheet = workbook.getSheet(sheetName);  // uses "Signup"
+	    
+	    int rowCount = sheet.getLastRowNum();
+	    int colCount = sheet.getRow(0).getLastCellNum();
+
+	    String[][] data = new String[rowCount][colCount];
+
+	    for (int i = 1; i <= rowCount; i++) {
+	        for (int j = 0; j < colCount; j++) {
+	            data[i - 1][j] = sheet.getRow(i).getCell(j).getStringCellValue();
+	        }
+	    }
+
+	    workbook.close();
+	    return data;
 	}
+
 	
 	public static String screenShot(String name) throws IOException {
 		
 		String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
-		String path="C:\\Users\\Digital Suppliers\\second-workspace\\ContactListApp\\src\\test\\resources\\snap\\"+name+timestamp+".png";
+		String path="C:\\Users\\Dolly\\eclipse-workspace\\DemoProject\\ContactListApp\\src\\test\\resources\\snap\\"+name+timestamp+".png";
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File dest = new File(path);
 		FileUtils.copyFile(src, dest);
