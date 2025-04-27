@@ -39,12 +39,14 @@ public class TC_010_ContactEditingTest extends ProjectSpecificationMethods
 		String expectedFirstName = "phone";         
 		String expectedLastName = "email";         
 		String expectedPhoneNumber = "+919876543210";  // Example phone number with extension         
-		String expectedEmail = "email@example.com";  // Example email          
+		String expectedEmail = "email@example.com";  // Example email   
+		String initialCity= "Hyderabad";
 		// Enter initial contact details         
 		contactEditingPage.enterFirstName(expectedFirstName);         
 		contactEditingPage.enterLastName(expectedLastName);         
 		contactEditingPage.enterPhoneNumber(expectedPhoneNumber);         
-		contactEditingPage.enterEmail(expectedEmail);         
+		contactEditingPage.enterEmail(expectedEmail);   
+		contactEditingPage.enterCity(initialCity);
 		test.info("Entered initial contact details.");          // Submit the contact         
 		contactEditingPage.submitContact();         
 		test.info("Submitted the new contact.");          // Wait for the contact list to update         
@@ -75,12 +77,25 @@ public class TC_010_ContactEditingTest extends ProjectSpecificationMethods
 			} catch (InterruptedException e) 
 		{                 e.printStackTrace();             
 		}                     
-		       
+		
+		
+		String expectedCountry="";
 		String actualPhoneNumber = contactEditingPage.getPhoneNumberText();         
-		String actualEmail = contactEditingPage.getEmailText();          // Assert that the updated details are correct         
+		String actualEmail = contactEditingPage.getEmailText();          // Assert that the updated details are correct  
+		String actualCity = contactEditingPage.getCityText();
+		String actualCountry=contactEditingPage.getCountryText();
+		
+		
 		Assert.assertEquals(actualPhoneNumber, updatedPhoneNumber, "Phone number not updated correctly.");         
-		Assert.assertEquals(actualEmail, updatedEmail, "Email not updated correctly.");          
-		test.pass("Contact details were successfully edited.");    
+		Assert.assertEquals(actualEmail, updatedEmail, "Email not updated correctly.");    
+		test.pass("Contact details were successfully edited."); 
+		 Assert.assertEquals(actualCity, initialCity, "unrelated field - City is unchanged.");
+		 test.pass("changes made to one field don't affect other unrelated fields."); 
+		 Assert.assertEquals(actualCountry, expectedCountry, "App allows empty fields.");
+		 test.pass("the app allows saving empty fields."); 
+		 
+		
+		  
 		} 
 	} 
 		

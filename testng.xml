@@ -15,6 +15,7 @@
                <class name="test.TC_008_ContactSortTest"/>
                <class name="test.TC_009_PhoneExtensionTest"/>
                <class name="test.TC_010_ContactEditingTest"/>
+               <class name="test.TC_011_DeleteContactAndLogoutTest"/>
               
         </classes>
     </test>

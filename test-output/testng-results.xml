@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-27T22:50:05 IST" name="ContactListAppSuite" finished-at="2025-04-27T22:51:59 IST" duration-ms="113661">
+  <suite started-at="2025-04-28T00:51:53 IST" name="ContactListAppSuite" finished-at="2025-04-28T00:54:08 IST" duration-ms="134780">
     <groups>
     </groups>
-    <test started-at="2025-04-27T22:50:05 IST" name="Contact List App Tests" finished-at="2025-04-27T22:51:59 IST" duration-ms="113661">
+    <test started-at="2025-04-28T00:51:53 IST" name="Contact List App Tests" finished-at="2025-04-28T00:54:08 IST" duration-ms="134780">
       <class name="test.TC_009_PhoneExtensionTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_009_PhoneExtensionTest@3eb25e1a]" started-at="2025-04-27T22:51:29 IST" name="testDetails" finished-at="2025-04-27T22:51:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_009_PhoneExtensionTest@77c2494c]" started-at="2025-04-28T00:53:22 IST" name="testDetails" finished-at="2025-04-28T00:53:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_009_PhoneExtensionTest@3eb25e1a]" started-at="2025-04-27T22:51:29 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:51:33 IST" duration-ms="3869" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_009_PhoneExtensionTest@77c2494c]" started-at="2025-04-28T00:53:22 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:26 IST" duration-ms="3820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,21 +27,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifyPhoneNumberWithExtension()[pri:0, instance:test.TC_009_PhoneExtensionTest@3eb25e1a]" started-at="2025-04-27T22:51:33 IST" name="verifyPhoneNumberWithExtension" description="Verify phone number with its extension is displayed correctly" finished-at="2025-04-27T22:51:37 IST" duration-ms="4683" status="PASS">
+        <test-method signature="verifyPhoneNumberWithExtension()[pri:0, instance:test.TC_009_PhoneExtensionTest@77c2494c]" started-at="2025-04-28T00:53:26 IST" name="verifyPhoneNumberWithExtension" description="Verify phone number with its extension is displayed correctly" finished-at="2025-04-28T00:53:30 IST" duration-ms="4311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPhoneNumberWithExtension -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_009_PhoneExtensionTest@3eb25e1a]" started-at="2025-04-27T22:51:37 IST" name="browserClose" finished-at="2025-04-27T22:51:37 IST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_009_PhoneExtensionTest@77c2494c]" started-at="2025-04-28T00:53:30 IST" name="browserClose" finished-at="2025-04-28T00:53:30 IST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- test.TC_009_PhoneExtensionTest -->
       <class name="test.TC_006_InvalidBirthdateFormatTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@31190526]" started-at="2025-04-27T22:50:59 IST" name="testDetails" finished-at="2025-04-27T22:50:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@6743e411]" started-at="2025-04-28T00:52:52 IST" name="testDetails" finished-at="2025-04-28T00:52:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@31190526]" started-at="2025-04-27T22:50:59 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:51:03 IST" duration-ms="3840" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@6743e411]" started-at="2025-04-28T00:52:52 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:56 IST" duration-ms="3562" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,25 +57,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="testInvalidBirthdateFormat()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@31190526]" started-at="2025-04-27T22:51:03 IST" name="testInvalidBirthdateFormat" description="Verify the application restricts adding birthdates with invalid date formats" finished-at="2025-04-27T22:51:06 IST" duration-ms="3506" status="PASS">
+        <test-method signature="testInvalidBirthdateFormat()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@6743e411]" started-at="2025-04-28T00:52:56 IST" name="testInvalidBirthdateFormat" description="Verify the application restricts adding birthdates with invalid date formats" finished-at="2025-04-28T00:52:59 IST" duration-ms="3482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidBirthdateFormat -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@31190526]" started-at="2025-04-27T22:51:06 IST" name="browserClose" finished-at="2025-04-27T22:51:06 IST" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@6743e411]" started-at="2025-04-28T00:52:59 IST" name="browserClose" finished-at="2025-04-28T00:52:59 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- test.TC_006_InvalidBirthdateFormatTest -->
       <class name="test.TC_001_SignupTest">
-        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:05 IST" name="reportInitialization" finished-at="2025-04-27T22:50:05 IST" duration-ms="531" status="PASS">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:51:52 IST" name="reportInitialization" finished-at="2025-04-28T00:51:53 IST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportInitialization -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:05 IST" name="testDetails" finished-at="2025-04-27T22:50:05 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:51:53 IST" name="testDetails" finished-at="2025-04-28T00:51:53 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:06 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:50:11 IST" duration-ms="4826" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:51:54 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:03 IST" duration-ms="8715" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifySignupNegativeScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:11 IST" name="verifySignupNegativeScenario" data-provider="signupData" finished-at="2025-04-27T22:50:11 IST" duration-ms="20" status="PASS">
+        <test-method signature="verifySignupNegativeScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:03 IST" name="verifySignupNegativeScenario" data-provider="signupData" finished-at="2025-04-28T00:52:03 IST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[DummyvTestUser557@gmail.com]]>
+                <![CDATA[DummyvTestUser568@gmail.com]]>
               </value>
             </param>
             <param index="3">
@@ -127,11 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignupNegativeScenario -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:11 IST" name="browserClose" finished-at="2025-04-27T22:50:11 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:03 IST" name="browserClose" finished-at="2025-04-28T00:52:03 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:11 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:50:15 IST" duration-ms="3587" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:03 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:07 IST" duration-ms="3745" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifySignupNegativeScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:15 IST" name="verifySignupNegativeScenario" data-provider="signupData" finished-at="2025-04-27T22:50:18 IST" duration-ms="2577" status="PASS">
+        <test-method signature="verifySignupNegativeScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:07 IST" name="verifySignupNegativeScenario" data-provider="signupData" finished-at="2025-04-28T00:52:09 IST" duration-ms="2672" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,11 +183,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignupNegativeScenario -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:18 IST" name="browserClose" finished-at="2025-04-27T22:50:18 IST" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:09 IST" name="browserClose" finished-at="2025-04-28T00:52:09 IST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:18 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:50:21 IST" duration-ms="3795" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:09 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:13 IST" duration-ms="3941" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -203,7 +203,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifySignupPositiveScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:21 IST" name="verifySignupPositiveScenario" data-provider="signupData" finished-at="2025-04-27T22:50:24 IST" duration-ms="2869" status="PASS">
+        <test-method signature="verifySignupPositiveScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:13 IST" name="verifySignupPositiveScenario" data-provider="signupData" finished-at="2025-04-28T00:52:16 IST" duration-ms="2953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,7 +217,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[DummyvTestUser557@gmail.com]]>
+                <![CDATA[DummyvTestUser568@gmail.com]]>
               </value>
             </param>
             <param index="3">
@@ -239,11 +239,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignupPositiveScenario -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:24 IST" name="browserClose" finished-at="2025-04-27T22:50:24 IST" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:16 IST" name="browserClose" finished-at="2025-04-28T00:52:16 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:24 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:50:28 IST" duration-ms="3846" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:16 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:20 IST" duration-ms="3878" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -259,7 +259,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifySignupPositiveScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:28 IST" name="verifySignupPositiveScenario" data-provider="signupData" finished-at="2025-04-27T22:50:28 IST" duration-ms="3" status="PASS">
+        <test-method signature="verifySignupPositiveScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:20 IST" name="verifySignupPositiveScenario" data-provider="signupData" finished-at="2025-04-28T00:52:20 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -295,25 +295,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignupPositiveScenario -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:28 IST" name="browserClose" finished-at="2025-04-27T22:50:28 IST" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:20 IST" name="browserClose" finished-at="2025-04-28T00:52:20 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:50:28 IST" name="tearDown" finished-at="2025-04-27T22:50:29 IST" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:20 IST" name="tearDown" finished-at="2025-04-28T00:52:20 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_001_SignupTest@6a78afa0]" started-at="2025-04-27T22:51:59 IST" name="reportClose" finished-at="2025-04-27T22:52:00 IST" duration-ms="544" status="PASS">
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:54:08 IST" name="reportClose" finished-at="2025-04-28T00:54:08 IST" duration-ms="583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportClose -->
       </class> <!-- test.TC_001_SignupTest -->
       <class name="test.TC_010_ContactEditingTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_010_ContactEditingTest@477b4cdf]" started-at="2025-04-27T22:51:37 IST" name="testDetails" finished-at="2025-04-27T22:51:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_010_ContactEditingTest@f5958c9]" started-at="2025-04-28T00:53:30 IST" name="testDetails" finished-at="2025-04-28T00:53:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_010_ContactEditingTest@477b4cdf]" started-at="2025-04-27T22:51:37 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:51:41 IST" duration-ms="3580" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_010_ContactEditingTest@f5958c9]" started-at="2025-04-28T00:53:30 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:34 IST" duration-ms="3794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,21 +329,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="editContactDetails()[pri:0, instance:test.TC_010_ContactEditingTest@477b4cdf]" started-at="2025-04-27T22:51:41 IST" name="editContactDetails" description="Test editing existing contact details and page redirection upon contact click" finished-at="2025-04-27T22:51:59 IST" duration-ms="17932" status="PASS">
+        <test-method signature="editContactDetails()[pri:0, instance:test.TC_010_ContactEditingTest@f5958c9]" started-at="2025-04-28T00:53:34 IST" name="editContactDetails" description="Test editing existing contact details and page redirection upon contact click" finished-at="2025-04-28T00:53:53 IST" duration-ms="19507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editContactDetails -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_010_ContactEditingTest@477b4cdf]" started-at="2025-04-27T22:51:59 IST" name="browserClose" finished-at="2025-04-27T22:51:59 IST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_010_ContactEditingTest@f5958c9]" started-at="2025-04-28T00:53:53 IST" name="browserClose" finished-at="2025-04-28T00:53:53 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- test.TC_010_ContactEditingTest -->
       <class name="test.TC_008_ContactSortTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_008_ContactSortTest@6743e411]" started-at="2025-04-27T22:51:14 IST" name="testDetails" finished-at="2025-04-27T22:51:14 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_008_ContactSortTest@477b4cdf]" started-at="2025-04-28T00:53:07 IST" name="testDetails" finished-at="2025-04-28T00:53:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_008_ContactSortTest@6743e411]" started-at="2025-04-27T22:51:14 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:51:18 IST" duration-ms="3856" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_008_ContactSortTest@477b4cdf]" started-at="2025-04-28T00:53:07 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:11 IST" duration-ms="3740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -359,21 +359,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifyContactsAlphabeticalOrder()[pri:0, instance:test.TC_008_ContactSortTest@6743e411]" started-at="2025-04-27T22:51:18 IST" name="verifyContactsAlphabeticalOrder" description="Verify contacts are displayed in alphabetical order by last name" finished-at="2025-04-27T22:51:29 IST" duration-ms="10658" status="PASS">
+        <test-method signature="verifyContactsAlphabeticalOrder()[pri:0, instance:test.TC_008_ContactSortTest@477b4cdf]" started-at="2025-04-28T00:53:11 IST" name="verifyContactsAlphabeticalOrder" description="Verify contacts are displayed in alphabetical order by last name" finished-at="2025-04-28T00:53:22 IST" duration-ms="10672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsAlphabeticalOrder -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_008_ContactSortTest@6743e411]" started-at="2025-04-27T22:51:29 IST" name="browserClose" finished-at="2025-04-27T22:51:29 IST" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_008_ContactSortTest@477b4cdf]" started-at="2025-04-28T00:53:22 IST" name="browserClose" finished-at="2025-04-28T00:53:22 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- test.TC_008_ContactSortTest -->
       <class name="test.TC_005_DuplicateContactTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_005_DuplicateContactTest@229f66ed]" started-at="2025-04-27T22:50:51 IST" name="testDetails" finished-at="2025-04-27T22:50:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_005_DuplicateContactTest@662ac478]" started-at="2025-04-28T00:52:44 IST" name="testDetails" finished-at="2025-04-28T00:52:44 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005_DuplicateContactTest@229f66ed]" started-at="2025-04-27T22:50:51 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:50:54 IST" duration-ms="3611" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005_DuplicateContactTest@662ac478]" started-at="2025-04-28T00:52:44 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:48 IST" duration-ms="3798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -389,7 +389,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="testDuplicateContactAddition()[pri:0, instance:test.TC_005_DuplicateContactTest@229f66ed]" started-at="2025-04-27T22:50:54 IST" name="testDuplicateContactAddition" finished-at="2025-04-27T22:50:59 IST" duration-ms="4435" status="FAIL">
+        <test-method signature="testDuplicateContactAddition()[pri:0, instance:test.TC_005_DuplicateContactTest@662ac478]" started-at="2025-04-28T00:52:48 IST" name="testDuplicateContactAddition" finished-at="2025-04-28T00:52:52 IST" duration-ms="4323" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Duplicate contact was incorrectly added to the contact list.]]>
@@ -430,17 +430,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDuplicateContactAddition -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_005_DuplicateContactTest@229f66ed]" started-at="2025-04-27T22:50:59 IST" name="browserClose" finished-at="2025-04-27T22:50:59 IST" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_005_DuplicateContactTest@662ac478]" started-at="2025-04-28T00:52:52 IST" name="browserClose" finished-at="2025-04-28T00:52:52 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- test.TC_005_DuplicateContactTest -->
-      <class name="test.TC_004_MandatoryAndSomeOptionalTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@7dcf94f8]" started-at="2025-04-27T22:50:42 IST" name="testDetails" finished-at="2025-04-27T22:50:42 IST" duration-ms="1" status="PASS">
+      <class name="test.TC_011_DeleteContactAndLogoutTest">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_011_DeleteContactAndLogoutTest@233795b6]" started-at="2025-04-28T00:53:53 IST" name="testDetails" finished-at="2025-04-28T00:53:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@7dcf94f8]" started-at="2025-04-27T22:50:42 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:50:45 IST" duration-ms="3750" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_011_DeleteContactAndLogoutTest@233795b6]" started-at="2025-04-28T00:53:53 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:57 IST" duration-ms="3790" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -456,21 +456,51 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="addContactWithMandatoryAndSomeOptionalFields()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@7dcf94f8]" started-at="2025-04-27T22:50:45 IST" name="addContactWithMandatoryAndSomeOptionalFields" finished-at="2025-04-27T22:50:51 IST" duration-ms="5201" status="PASS">
+        <test-method signature="deleteContactByCity()[pri:0, instance:test.TC_011_DeleteContactAndLogoutTest@233795b6]" started-at="2025-04-28T00:53:57 IST" name="deleteContactByCity" description="Test deleting a contact by clicking on City and verifying deletion by City name" finished-at="2025-04-28T00:54:07 IST" duration-ms="10231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContactByCity -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_011_DeleteContactAndLogoutTest@233795b6]" started-at="2025-04-28T00:54:07 IST" name="browserClose" finished-at="2025-04-28T00:54:08 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TC_011_DeleteContactAndLogoutTest -->
+      <class name="test.TC_004_MandatoryAndSomeOptionalTest">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@31190526]" started-at="2025-04-28T00:52:35 IST" name="testDetails" finished-at="2025-04-28T00:52:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@31190526]" started-at="2025-04-28T00:52:35 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:39 IST" duration-ms="3670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="addContactWithMandatoryAndSomeOptionalFields()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@31190526]" started-at="2025-04-28T00:52:39 IST" name="addContactWithMandatoryAndSomeOptionalFields" finished-at="2025-04-28T00:52:44 IST" duration-ms="5104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addContactWithMandatoryAndSomeOptionalFields -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@7dcf94f8]" started-at="2025-04-27T22:50:51 IST" name="browserClose" finished-at="2025-04-27T22:50:51 IST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@31190526]" started-at="2025-04-28T00:52:44 IST" name="browserClose" finished-at="2025-04-28T00:52:44 IST" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- test.TC_004_MandatoryAndSomeOptionalTest -->
       <class name="test.TC_002_LoginTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_002_LoginTest@682b2fa]" started-at="2025-04-27T22:50:29 IST" name="testDetails" finished-at="2025-04-27T22:50:29 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:20 IST" name="testDetails" finished-at="2025-04-28T00:52:20 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@682b2fa]" started-at="2025-04-27T22:50:29 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:50:33 IST" duration-ms="4057" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:20 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:24 IST" duration-ms="3638" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -486,25 +516,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifyLogin()[pri:0, instance:test.TC_002_LoginTest@682b2fa]" started-at="2025-04-27T22:50:33 IST" name="verifyLogin" finished-at="2025-04-27T22:50:33 IST" duration-ms="683" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:24 IST" name="verifyLogin" finished-at="2025-04-28T00:52:25 IST" duration-ms="665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@682b2fa]" started-at="2025-04-27T22:50:33 IST" name="browserClose" finished-at="2025-04-27T22:50:33 IST" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:25 IST" name="browserClose" finished-at="2025-04-28T00:52:25 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_002_LoginTest@682b2fa]" started-at="2025-04-27T22:50:33 IST" name="tearDown" finished-at="2025-04-27T22:50:33 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:25 IST" name="tearDown" finished-at="2025-04-28T00:52:25 IST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.TC_002_LoginTest -->
       <class name="test.TC_007_VerifyContactDetailsTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@662ac478]" started-at="2025-04-27T22:51:06 IST" name="testDetails" finished-at="2025-04-27T22:51:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@3eb25e1a]" started-at="2025-04-28T00:52:59 IST" name="testDetails" finished-at="2025-04-28T00:52:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_007_VerifyContactDetailsTest@662ac478]" started-at="2025-04-27T22:51:06 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:51:10 IST" duration-ms="3664" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_007_VerifyContactDetailsTest@3eb25e1a]" started-at="2025-04-28T00:52:59 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:03 IST" duration-ms="3741" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -520,21 +550,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifyContactDetails()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@662ac478]" started-at="2025-04-27T22:51:10 IST" name="verifyContactDetails" description="Verify contact details are displayed correctly after adding" finished-at="2025-04-27T22:51:14 IST" duration-ms="4069" status="PASS">
+        <test-method signature="verifyContactDetails()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@3eb25e1a]" started-at="2025-04-28T00:53:03 IST" name="verifyContactDetails" description="Verify contact details are displayed correctly after adding" finished-at="2025-04-28T00:53:07 IST" duration-ms="4058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactDetails -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@662ac478]" started-at="2025-04-27T22:51:14 IST" name="browserClose" finished-at="2025-04-27T22:51:14 IST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@3eb25e1a]" started-at="2025-04-28T00:53:07 IST" name="browserClose" finished-at="2025-04-28T00:53:07 IST" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- test.TC_007_VerifyContactDetailsTest -->
       <class name="test.TC_003_AddContactMandatoryFieldsTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@217ed35e]" started-at="2025-04-27T22:50:33 IST" name="testDetails" finished-at="2025-04-27T22:50:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:25 IST" name="testDetails" finished-at="2025-04-28T00:52:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@217ed35e]" started-at="2025-04-27T22:50:33 IST" name="launchingAndLoadingURL" finished-at="2025-04-27T22:50:37 IST" duration-ms="3869" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:25 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:29 IST" duration-ms="4476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -550,15 +580,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="addContactWithMandatoryFields()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@217ed35e]" started-at="2025-04-27T22:50:37 IST" name="addContactWithMandatoryFields" finished-at="2025-04-27T22:50:41 IST" duration-ms="4115" status="PASS">
+        <test-method signature="addContactWithMandatoryFields()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:29 IST" name="addContactWithMandatoryFields" finished-at="2025-04-28T00:52:35 IST" duration-ms="5554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addContactWithMandatoryFields -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@217ed35e]" started-at="2025-04-27T22:50:41 IST" name="browserClose" finished-at="2025-04-27T22:50:42 IST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:35 IST" name="browserClose" finished-at="2025-04-28T00:52:35 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@217ed35e]" started-at="2025-04-27T22:50:42 IST" name="tearDown" finished-at="2025-04-27T22:50:42 IST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:35 IST" name="tearDown" finished-at="2025-04-28T00:52:35 IST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
