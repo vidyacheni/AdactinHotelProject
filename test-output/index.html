@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-ContactListAppSuite" class="navigator-link">
-              <span class="suite-name border-passed">ContactListAppSuite</span>
+              <span class="suite-name border-failed">ContactListAppSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ContactListAppSuite" class="hide-methods failed suite-ContactListAppSuite"> (hide)</a> <!-- hide-methods failed suite-ContactListAppSuite -->
+                      <a href="#" panel-name="suite-ContactListAppSuite" class="show-methods failed suite-ContactListAppSuite"> (show)</a> <!-- show-methods failed suite-ContactListAppSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-ContactListAppSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_005_DuplicateContactTest" class="method navigator-link" hash-for-method="testDuplicateContactAddition">testDuplicateContactAddition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ContactListAppSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +117,62 @@
                     <div class="method-list-content passed suite-ContactListAppSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="verifySignupNegativeScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List)">verifySignupNegativeScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_004_MandatoryAndSomeOptionalTest" class="method navigator-link" hash-for-method="addContactWithMandatoryAndSomeOptionalFields">addContactWithMandatoryAndSomeOptionalFields</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="verifySignupNegativeScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...)">verifySignupNegativeScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_003_AddContactMandatoryFieldsTest" class="method navigator-link" hash-for-method="addContactWithMandatoryFields">addContactWithMandatoryFields</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="verifySignupPositiveScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...)">verifySignupPositiveScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_010_ContactEditingTest" class="method navigator-link" hash-for-method="editContactDetails">editContactDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="verifySignupPositiveScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List)">verifySignupPositiveScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_006_InvalidBirthdateFormatTest" class="method navigator-link" hash-for-method="testInvalidBirthdateFormat">testInvalidBirthdateFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_007_VerifyContactDetailsTest" class="method navigator-link" hash-for-method="verifyContactDetails">verifyContactDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_008_ContactSortTest" class="method navigator-link" hash-for-method="verifyContactsAlphabeticalOrder">verifyContactsAlphabeticalOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_002_LoginTest" class="method navigator-link" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_009_PhoneExtensionTest" class="method navigator-link" hash-for-method="verifyPhoneNumberWithExtension">verifyPhoneNumberWithExtension</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="verifySignupNegativeScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...)">verifySignupNegativeScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="verifySignupNegativeScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List)">verifySignupNegativeScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="verifySignupPositiveScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...)">verifySignupPositiveScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ContactListAppSuite" title="test.TC_001_SignupTest" class="method navigator-link" hash-for-method="verifySignupPositiveScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List)">verifySignupPositiveScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ContactListAppSuite -->
@@ -133,6 +187,109 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ContactListAppSuite" class="panel ContactListAppSuite">
+          <div class="suite-ContactListAppSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_005_DuplicateContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDuplicateContactAddition">
+                  </a> <!-- testDuplicateContactAddition -->
+                  <span class="method-name">testDuplicateContactAddition</span>
+                  <div class="stack-trace">java.lang.AssertionError: Duplicate contact was incorrectly added to the contact list.
+	at test.TC_005_DuplicateContactTest.testDuplicateContactAddition(TC_005_DuplicateContactTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-failed -->
+          <div class="suite-ContactListAppSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_004_MandatoryAndSomeOptionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContactWithMandatoryAndSomeOptionalFields">
+                  </a> <!-- addContactWithMandatoryAndSomeOptionalFields -->
+                  <span class="method-name">addContactWithMandatoryAndSomeOptionalFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-passed -->
+          <div class="suite-ContactListAppSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_009_PhoneExtensionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPhoneNumberWithExtension">
+                  </a> <!-- verifyPhoneNumberWithExtension -->
+                  <span class="method-name">verifyPhoneNumberWithExtension</span>
+                  <em>
+(Verify phone number with its extension is displayed correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-passed -->
+          <div class="suite-ContactListAppSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_006_InvalidBirthdateFormatTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidBirthdateFormat">
+                  </a> <!-- testInvalidBirthdateFormat -->
+                  <span class="method-name">testInvalidBirthdateFormat</span>
+                  <em>
+(Verify the application restricts adding birthdates with invalid date formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-passed -->
+          <div class="suite-ContactListAppSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_008_ContactSortTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactsAlphabeticalOrder">
+                  </a> <!-- verifyContactsAlphabeticalOrder -->
+                  <span class="method-name">verifyContactsAlphabeticalOrder</span>
+                  <em>
+(Verify contacts are displayed in alphabetical order by last name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-passed -->
+          <div class="suite-ContactListAppSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_010_ContactEditingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editContactDetails">
+                  </a> <!-- editContactDetails -->
+                  <span class="method-name">editContactDetails</span>
+                  <em>
+(Test editing existing contact details and page redirection upon contact click)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-passed -->
           <div class="suite-ContactListAppSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -141,34 +298,81 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignupNegativeScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List)">
-                  </a> <!-- verifySignupNegativeScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List) -->
+                  <a name="verifySignupNegativeScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...)">
+                  </a> <!-- verifySignupNegativeScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...) -->
                   <span class="method-name">verifySignupNegativeScenario</span>
-                  <span class="parameters">(DummyTest677,Users,DummyvTestUser88390@gmail.com,DummyTest01,Positive,Contact List)</span>
+                  <span class="parameters">(DummyTest678,Users,DummyTestgmail.com,DummyTest02,Negative,User validation failed: email: Email is invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignupNegativeScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...)">
-                  </a> <!-- verifySignupNegativeScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...) -->
+                  <a name="verifySignupNegativeScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List)">
+                  </a> <!-- verifySignupNegativeScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List) -->
                   <span class="method-name">verifySignupNegativeScenario</span>
-                  <span class="parameters">(DummyTest2,Users,DummyTestgmail.com,DummyTest02,Negative,User validation failed: email: Email is invalid)</span>
+                  <span class="parameters">(DummyTest665,Users,DummyvTestUser557@gmail.com,DummyTest01,Positive,Contact List)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignupPositiveScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...)">
-                  </a> <!-- verifySignupPositiveScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...) -->
+                  <a name="verifySignupPositiveScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...)">
+                  </a> <!-- verifySignupPositiveScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...) -->
                   <span class="method-name">verifySignupPositiveScenario</span>
-                  <span class="parameters">(DummyTest2,Users,DummyTestgmail.com,DummyTest02,Negative,User validation failed: email: Email is invalid)</span>
+                  <span class="parameters">(DummyTest678,Users,DummyTestgmail.com,DummyTest02,Negative,User validation failed: email: Email is invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignupPositiveScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List)">
-                  </a> <!-- verifySignupPositiveScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List) -->
+                  <a name="verifySignupPositiveScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List)">
+                  </a> <!-- verifySignupPositiveScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List) -->
                   <span class="method-name">verifySignupPositiveScenario</span>
-                  <span class="parameters">(DummyTest677,Users,DummyvTestUser88390@gmail.com,DummyTest01,Positive,Contact List)</span>
+                  <span class="parameters">(DummyTest665,Users,DummyvTestUser557@gmail.com,DummyTest01,Positive,Contact List)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-passed -->
+          <div class="suite-ContactListAppSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_003_AddContactMandatoryFieldsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContactWithMandatoryFields">
+                  </a> <!-- addContactWithMandatoryFields -->
+                  <span class="method-name">addContactWithMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-passed -->
+          <div class="suite-ContactListAppSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_002_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ContactListAppSuite-class-passed -->
+          <div class="suite-ContactListAppSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_007_VerifyContactDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactDetails">
+                  </a> <!-- verifyContactDetails -->
+                  <span class="method-name">verifyContactDetails</span>
+                  <em>
+(Verify contact details are displayed correctly after adding)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,6 +392,15 @@
     &lt;parameter name=&quot;url&quot; value=&quot;https://thinking-tester-contact-list.herokuapp.com/&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.TC_001_SignupTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_002_LoginTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_003_AddContactMandatoryFieldsTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_004_MandatoryAndSomeOptionalTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_005_DuplicateContactTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_006_InvalidBirthdateFormatTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_007_VerifyContactDetailsTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_008_ContactSortTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_009_PhoneExtensionTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_010_ContactEditingTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Contact List App Tests --&gt;
 &lt;/suite&gt; &lt;!-- ContactListAppSuite --&gt;
@@ -201,7 +414,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Contact List App Tests (1 class)</span>
+                <span class="test-name">Contact List App Tests (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -227,28 +440,64 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifySignupNegativeScenario')
-data.setCell(0, 2, 'test.TC_001_SignupTest')
-data.setCell(0, 3, 2806);
+data.setCell(0, 1, 'editContactDetails')
+data.setCell(0, 2, 'test.TC_010_ContactEditingTest')
+data.setCell(0, 3, 17932);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifySignupPositiveScenario')
-data.setCell(1, 2, 'test.TC_001_SignupTest')
-data.setCell(1, 3, 2710);
+data.setCell(1, 1, 'verifyContactsAlphabeticalOrder')
+data.setCell(1, 2, 'test.TC_008_ContactSortTest')
+data.setCell(1, 3, 10658);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifySignupNegativeScenario')
-data.setCell(2, 2, 'test.TC_001_SignupTest')
-data.setCell(2, 3, 22);
+data.setCell(2, 1, 'addContactWithMandatoryAndSomeOptionalFields')
+data.setCell(2, 2, 'test.TC_004_MandatoryAndSomeOptionalTest')
+data.setCell(2, 3, 5201);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifySignupPositiveScenario')
-data.setCell(3, 2, 'test.TC_001_SignupTest')
-data.setCell(3, 3, 2);
+data.setCell(3, 1, 'verifyPhoneNumberWithExtension')
+data.setCell(3, 2, 'test.TC_009_PhoneExtensionTest')
+data.setCell(3, 3, 4683);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDuplicateContactAddition')
+data.setCell(4, 2, 'test.TC_005_DuplicateContactTest')
+data.setCell(4, 3, 4435);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addContactWithMandatoryFields')
+data.setCell(5, 2, 'test.TC_003_AddContactMandatoryFieldsTest')
+data.setCell(5, 3, 4115);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyContactDetails')
+data.setCell(6, 2, 'test.TC_007_VerifyContactDetailsTest')
+data.setCell(6, 3, 4069);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testInvalidBirthdateFormat')
+data.setCell(7, 2, 'test.TC_006_InvalidBirthdateFormatTest')
+data.setCell(7, 3, 3506);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySignupPositiveScenario')
+data.setCell(8, 2, 'test.TC_001_SignupTest')
+data.setCell(8, 3, 2869);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySignupNegativeScenario')
+data.setCell(9, 2, 'test.TC_001_SignupTest')
+data.setCell(9, 3, 2577);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLogin')
+data.setCell(10, 2, 'test.TC_002_LoginTest')
+data.setCell(10, 3, 683);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySignupNegativeScenario')
+data.setCell(11, 2, 'test.TC_001_SignupTest')
+data.setCell(11, 3, 20);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySignupPositiveScenario')
+data.setCell(12, 2, 'test.TC_001_SignupTest')
+data.setCell(12, 3, 3);
 window.suiteTableData['ContactListAppSuite']= { tableData: data, tableDiv: 'times-div-ContactListAppSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-ContactListAppSuite">
               </div> <!-- times-div-ContactListAppSuite -->
             </div> <!-- times-div -->
@@ -263,9 +512,90 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-ContactListAppSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">18 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_004_MandatoryAndSomeOptionalTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_009_PhoneExtensionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_006_InvalidBirthdateFormatTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_008_ContactSortTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_010_ContactEditingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_003_AddContactMandatoryFieldsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_002_LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_005_DuplicateContactTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_007_VerifyContactDetailsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-ContactListAppSuite" class="panel">
@@ -281,59 +611,247 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">testDetails</span>
-                <span class="method-start">577 ms</span>
+                <span class="method-start">563 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
-                <span class="method-start">2290 ms</span>
+                <span class="method-start">1734 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignupNegativeScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List)</span>
-                <span class="method-start">7042 ms</span>
+                <span class="method-name">verifySignupNegativeScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List)</span>
+                <span class="method-start">6561 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">7069 ms</span>
+                <span class="method-start">6586 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
-                <span class="method-start">7152 ms</span>
+                <span class="method-start">6657 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignupNegativeScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...)</span>
-                <span class="method-start">11170 ms</span>
+                <span class="method-name">verifySignupNegativeScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...)</span>
+                <span class="method-start">10245 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">13979 ms</span>
+                <span class="method-start">12825 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
-                <span class="method-start">14170 ms</span>
+                <span class="method-start">12950 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignupPositiveScenario(DummyTest677, Users, DummyvTestUser88390@gmail.com, DummyTest01, Positive, Contact List)</span>
-                <span class="method-start">18561 ms</span>
+                <span class="method-name">verifySignupPositiveScenario(DummyTest665, Users, DummyvTestUser557@gmail.com, DummyTest01, Positive, Contact List)</span>
+                <span class="method-start">16745 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">21273 ms</span>
+                <span class="method-start">19616 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
-                <span class="method-start">21351 ms</span>
+                <span class="method-start">19682 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignupPositiveScenario(DummyTest2, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email i...)</span>
-                <span class="method-start">24565 ms</span>
+                <span class="method-name">verifySignupPositiveScenario(DummyTest678, Users, DummyTestgmail.com, DummyTest02, Negative, User validation failed: email: Email...)</span>
+                <span class="method-start">23528 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">24568 ms</span>
+                <span class="method-start">23533 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23610 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">23766 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">23768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">27825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">28510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28578 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_AddContactMandatoryFieldsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">28723 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">28724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addContactWithMandatoryFields</span>
+                <span class="method-start">32593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">36710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36795 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_MandatoryAndSomeOptionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">36939 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">36941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addContactWithMandatoryAndSomeOptionalFields</span>
+                <span class="method-start">40692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">45895 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_005_DuplicateContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">45974 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">45975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDuplicateContactAddition</span>
+                <span class="method-start">49586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">54024 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_006_InvalidBirthdateFormatTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">54098 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">54100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidBirthdateFormat</span>
+                <span class="method-start">57940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">61448 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_007_VerifyContactDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">61516 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">61517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactDetails</span>
+                <span class="method-start">65181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">69251 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_008_ContactSortTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">69338 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">69339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactsAlphabeticalOrder</span>
+                <span class="method-start">73195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">83855 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_009_PhoneExtensionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">83946 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">83947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPhoneNumberWithExtension</span>
+                <span class="method-start">87816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">92501 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_010_ContactEditingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">92579 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchingAndLoadingURL(chrome, https://thinking-tester-contact-list.herokuapp.com/)</span>
+                <span class="method-start">92581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editContactDetails</span>
+                <span class="method-start">96161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">114095 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_SignupTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">reportClose</span>
-                <span class="method-start">24695 ms</span>
+                <span class="method-start">114251 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

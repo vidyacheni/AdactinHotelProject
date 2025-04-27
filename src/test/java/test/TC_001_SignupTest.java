@@ -10,10 +10,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import base.ProjectSpecificationMethods;
 import pages.SignupPage;
+import utils.UserData;
 import utils.UtilityClass;
 
 public class TC_001_SignupTest extends ProjectSpecificationMethods {
@@ -74,6 +76,11 @@ public class TC_001_SignupTest extends ProjectSpecificationMethods {
             boolean isAtContactList = signupPage.isContactListPageDisplayed();
             Assert.assertTrue(isAtContactList, "Signup failed, did not navigate to Contact List page.");
             test.pass("Signup successful, navigated to Contact List page.");
+         // After signup success
+            UserData.setUserData(firstName, lastName, email, password);
+            test.info("User data captured for login and contact tests.");
+
+            
         } catch (Exception e) {
             String path = UtilityClass.screenShot("SignupTestFailure"); 
             test.fail("Exception occurred: " + e.getMessage());
@@ -145,4 +152,13 @@ public class TC_001_SignupTest extends ProjectSpecificationMethods {
         sheetname = "SignUp";
         return readData(); // Assuming readData() method reads data from Excel sheet
     }
+    
+    @AfterClass
+    public void tearDown() {
+        // Close the browser after the test is completed
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 }
+

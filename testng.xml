@@ -6,7 +6,16 @@
         <parameter name="url" value="https://thinking-tester-contact-list.herokuapp.com/"/>
         <classes>
             <class name="test.TC_001_SignupTest"/>
-            
+            <class name="test.TC_002_LoginTest"/>
+            <class name="test.TC_003_AddContactMandatoryFieldsTest"/>
+              <class name="test.TC_004_MandatoryAndSomeOptionalTest"/>
+               <class name="test.TC_005_DuplicateContactTest"/>
+               <class name="test.TC_006_InvalidBirthdateFormatTest"/>
+               <class name="test.TC_007_VerifyContactDetailsTest"/>
+               <class name="test.TC_008_ContactSortTest"/>
+               <class name="test.TC_009_PhoneExtensionTest"/>
+               <class name="test.TC_010_ContactEditingTest"/>
+              
         </classes>
     </test>
 </suite>

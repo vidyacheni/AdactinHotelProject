@@ -5,18 +5,16 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://thinking-tester-contact-list.herokuapp.com/"/>
     <classes>
-      <class name="test.TC_001_SignupTest">
+      <class name="test.TC_005_DuplicateContactTest">
         <methods>
           <include name="testDetails"/>
+          <include name="testDuplicateContactAddition"/>
           <include name="launchingAndLoadingURL"/>
           <include name="reportInitialization"/>
-          <include name="verifySignupNegativeScenario"/>
-          <include name="verifySignupPositiveScenario"/>
-          <include name="beforeEachTest"/>
           <include name="reportClose"/>
           <include name="browserClose"/>
         </methods>
-      </class> <!-- test.TC_001_SignupTest -->
+      </class> <!-- test.TC_005_DuplicateContactTest -->
     </classes>
   </test> <!-- Contact List App Tests(failed) -->
 </suite> <!-- Failed suite [ContactListAppSuite] -->
