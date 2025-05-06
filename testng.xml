@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="ContactListAppSuite" parallel="false">
-    <test name="Contact List App Tests">
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://thinking-tester-contact-list.herokuapp.com/"/>
+<suite name="ContactListAppSuite"  verbose="3">
+    <listeners>
+        <listener class-name="utils.Listener" />
+    </listeners>
+
+    <test name="LoginTest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="https://adactinhotelapp.com"/>
         <classes>
-            <class name="test.TC_001_SignupTest"/>
-            <class name="test.TC_002_LoginTest"/>
-            <class name="test.TC_003_AddContactMandatoryFieldsTest"/>
-              <class name="test.TC_004_MandatoryAndSomeOptionalTest"/>
-               <class name="test.TC_005_DuplicateContactTest"/>
-               <class name="test.TC_006_InvalidBirthdateFormatTest"/>
-               <class name="test.TC_007_VerifyContactDetailsTest"/>
-               <class name="test.TC_008_ContactSortTest"/>
-               <class name="test.TC_009_PhoneExtensionTest"/>
-               <class name="test.TC_010_ContactEditingTest"/>
-               <class name="test.TC_011_DeleteContactAndLogoutTest"/>
-              
+        	 <class name="test.TC_001_LoginTest"/>
+            <class name="test.TC_002_LoginNegativeTests"/>
+            <class name="test.TC_003_VerifyInvalidCheckInDateTest"/>
+        	<class name="test.TC_004_VerifyPastDateTest"/>
+        	<class name="test.TC_005_VerifyDateRetentionTest"/>
+           
+            
         </classes>
     </test>
+
+   
 </suite>

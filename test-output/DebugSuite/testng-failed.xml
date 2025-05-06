@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DebugSuite]">
+  <test thread-count="5" name="AllTestsSerially(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://adactinhotelapp.com"/>
+    <classes>
+      <class name="test.TC_003_VerifyInvalidCheckInDateTest">
+        <methods>
+          <include name="closeBrowserOnly"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="reportInitialization"/>
+          <include name="reportClose"/>
+          <include name="validateDateFieldError"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- test.TC_003_VerifyInvalidCheckInDateTest -->
+      <class name="test.TC_004_VerifyPastDateTest">
+        <methods>
+          <include name="closeBrowserOnly"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="reportInitialization"/>
+          <include name="validateDateFieldErrorForPastCheckInDate"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.TC_004_VerifyPastDateTest -->
+      <class name="test.TC_002_LoginNegativeTests">
+        <methods>
+          <include name="closeBrowserOnly"/>
+          <include name="TC_Login_007_SpecialCharacters"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="reportInitialization"/>
+          <include name="TC_Login_003_OnlyPasswordEntered"/>
+          <include name="TC_Login_001_EmptyUsernameAndPassword"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.TC_002_LoginNegativeTests -->
+      <class name="test.TC_001_LoginTest">
+        <methods>
+          <include name="closeBrowserOnly"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="reportInitialization"/>
+          <include name="loginTest"/>
+          <include name="reportClose"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.TC_001_LoginTest -->
+    </classes>
+  </test> <!-- AllTestsSerially(failed) -->
+</suite> <!-- Failed suite [DebugSuite] -->

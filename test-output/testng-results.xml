@@ -1,403 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T00:51:53 IST" name="ContactListAppSuite" finished-at="2025-04-28T00:54:08 IST" duration-ms="134780">
+  <suite started-at="2025-05-06T16:52:36 IST" name="ContactListAppSuite" finished-at="2025-05-06T16:54:04 IST" duration-ms="88021">
     <groups>
     </groups>
-    <test started-at="2025-04-28T00:51:53 IST" name="Contact List App Tests" finished-at="2025-04-28T00:54:08 IST" duration-ms="134780">
-      <class name="test.TC_009_PhoneExtensionTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_009_PhoneExtensionTest@77c2494c]" started-at="2025-04-28T00:53:22 IST" name="testDetails" finished-at="2025-04-28T00:53:22 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_009_PhoneExtensionTest@77c2494c]" started-at="2025-04-28T00:53:22 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:26 IST" duration-ms="3820" status="PASS">
+    <test started-at="2025-05-06T16:52:36 IST" name="LoginTest" finished-at="2025-05-06T16:54:04 IST" duration-ms="88021">
+      <class name="test.TC_002_LoginNegativeTests">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:52:49 IST" name="launchingAndLoadingURL" finished-at="2025-05-06T16:52:56 IST" duration-ms="7373" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+                <![CDATA[https://adactinhotelapp.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifyPhoneNumberWithExtension()[pri:0, instance:test.TC_009_PhoneExtensionTest@77c2494c]" started-at="2025-04-28T00:53:26 IST" name="verifyPhoneNumberWithExtension" description="Verify phone number with its extension is displayed correctly" finished-at="2025-04-28T00:53:30 IST" duration-ms="4311" status="PASS">
+        <test-method signature="TC_Login_001_EmptyUsernameAndPassword()[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:52:56 IST" name="TC_Login_001_EmptyUsernameAndPassword" finished-at="2025-05-06T16:52:57 IST" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPhoneNumberWithExtension -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_009_PhoneExtensionTest@77c2494c]" started-at="2025-04-28T00:53:30 IST" name="browserClose" finished-at="2025-04-28T00:53:30 IST" duration-ms="76" status="PASS">
+        </test-method> <!-- TC_Login_001_EmptyUsernameAndPassword -->
+        <test-method is-config="true" signature="closeBrowserOnly()[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:52:57 IST" name="closeBrowserOnly" finished-at="2025-05-06T16:52:59 IST" duration-ms="1442" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- test.TC_009_PhoneExtensionTest -->
-      <class name="test.TC_006_InvalidBirthdateFormatTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@6743e411]" started-at="2025-04-28T00:52:52 IST" name="testDetails" finished-at="2025-04-28T00:52:52 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@6743e411]" started-at="2025-04-28T00:52:52 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:56 IST" duration-ms="3562" status="PASS">
+        </test-method> <!-- closeBrowserOnly -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:52:59 IST" name="launchingAndLoadingURL" finished-at="2025-05-06T16:53:06 IST" duration-ms="7276" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+                <![CDATA[https://adactinhotelapp.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="testInvalidBirthdateFormat()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@6743e411]" started-at="2025-04-28T00:52:56 IST" name="testInvalidBirthdateFormat" description="Verify the application restricts adding birthdates with invalid date formats" finished-at="2025-04-28T00:52:59 IST" duration-ms="3482" status="PASS">
+        <test-method signature="TC_Login_003_OnlyPasswordEntered()[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:53:06 IST" name="TC_Login_003_OnlyPasswordEntered" finished-at="2025-05-06T16:53:06 IST" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInvalidBirthdateFormat -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_006_InvalidBirthdateFormatTest@6743e411]" started-at="2025-04-28T00:52:59 IST" name="browserClose" finished-at="2025-04-28T00:52:59 IST" duration-ms="70" status="PASS">
+        </test-method> <!-- TC_Login_003_OnlyPasswordEntered -->
+        <test-method is-config="true" signature="closeBrowserOnly()[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:53:06 IST" name="closeBrowserOnly" finished-at="2025-05-06T16:53:08 IST" duration-ms="1424" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- test.TC_006_InvalidBirthdateFormatTest -->
-      <class name="test.TC_001_SignupTest">
-        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:51:52 IST" name="reportInitialization" finished-at="2025-04-28T00:51:53 IST" duration-ms="490" status="PASS">
+        </test-method> <!-- closeBrowserOnly -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:53:08 IST" name="launchingAndLoadingURL" finished-at="2025-05-06T16:53:16 IST" duration-ms="7895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="TC_Login_007_SpecialCharacters()[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:53:16 IST" name="TC_Login_007_SpecialCharacters" finished-at="2025-05-06T16:53:16 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_007_SpecialCharacters -->
+        <test-method is-config="true" signature="closeBrowserOnly()[pri:0, instance:test.TC_002_LoginNegativeTests@3cfdd820]" started-at="2025-05-06T16:53:16 IST" name="closeBrowserOnly" finished-at="2025-05-06T16:53:18 IST" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserOnly -->
+      </class> <!-- test.TC_002_LoginNegativeTests -->
+      <class name="test.TC_001_LoginTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_001_LoginTest@19b843ba]" started-at="2025-05-06T16:52:36 IST" name="reportInitialization" finished-at="2025-05-06T16:52:36 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportInitialization -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:51:53 IST" name="testDetails" finished-at="2025-04-28T00:51:53 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:51:54 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:03 IST" duration-ms="8715" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@19b843ba]" started-at="2025-05-06T16:52:37 IST" name="launchingAndLoadingURL" finished-at="2025-05-06T16:52:46 IST" duration-ms="8828" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+                <![CDATA[https://adactinhotelapp.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifySignupNegativeScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:03 IST" name="verifySignupNegativeScenario" data-provider="signupData" finished-at="2025-04-28T00:52:03 IST" duration-ms="26" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@19b843ba]" started-at="2025-05-06T16:52:46 IST" name="loginTest" data-provider="getLoginData" finished-at="2025-05-06T16:52:48 IST" duration-ms="1359" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DummyTest665]]>
+                <![CDATA[veecee221188]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Users]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DummyvTestUser568@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DummyTest01]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Positive]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Contact List]]>
+                <![CDATA[XECM8G]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignupNegativeScenario -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:03 IST" name="browserClose" finished-at="2025-04-28T00:52:03 IST" duration-ms="81" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowserOnly()[pri:0, instance:test.TC_001_LoginTest@19b843ba]" started-at="2025-05-06T16:52:48 IST" name="closeBrowserOnly" finished-at="2025-05-06T16:52:49 IST" duration-ms="1426" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:03 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:07 IST" duration-ms="3745" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifySignupNegativeScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:07 IST" name="verifySignupNegativeScenario" data-provider="signupData" finished-at="2025-04-28T00:52:09 IST" duration-ms="2672" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DummyTest678]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Users]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DummyTestgmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DummyTest02]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Negative]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[User validation failed: email: Email is invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignupNegativeScenario -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:09 IST" name="browserClose" finished-at="2025-04-28T00:52:09 IST" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:09 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:13 IST" duration-ms="3941" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifySignupPositiveScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:13 IST" name="verifySignupPositiveScenario" data-provider="signupData" finished-at="2025-04-28T00:52:16 IST" duration-ms="2953" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DummyTest665]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Users]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DummyvTestUser568@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DummyTest01]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Positive]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Contact List]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignupPositiveScenario -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:16 IST" name="browserClose" finished-at="2025-04-28T00:52:16 IST" duration-ms="70" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:16 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:20 IST" duration-ms="3878" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifySignupPositiveScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:20 IST" name="verifySignupPositiveScenario" data-provider="signupData" finished-at="2025-04-28T00:52:20 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DummyTest678]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Users]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DummyTestgmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[DummyTest02]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Negative]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[User validation failed: email: Email is invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignupPositiveScenario -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:20 IST" name="browserClose" finished-at="2025-04-28T00:52:20 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:52:20 IST" name="tearDown" finished-at="2025-04-28T00:52:20 IST" duration-ms="122" status="PASS">
+        </test-method> <!-- closeBrowserOnly -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_001_LoginTest@19b843ba]" started-at="2025-05-06T16:54:05 IST" name="tearDown" finished-at="2025-05-06T16:54:05 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_001_SignupTest@1f2586d6]" started-at="2025-04-28T00:54:08 IST" name="reportClose" finished-at="2025-04-28T00:54:08 IST" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_001_LoginTest@19b843ba]" started-at="2025-05-06T16:54:05 IST" name="reportClose" finished-at="2025-05-06T16:54:05 IST" depends-on-methods="test.TC_001_LoginTest.tearDown" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportClose -->
-      </class> <!-- test.TC_001_SignupTest -->
-      <class name="test.TC_010_ContactEditingTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_010_ContactEditingTest@f5958c9]" started-at="2025-04-28T00:53:30 IST" name="testDetails" finished-at="2025-04-28T00:53:30 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_010_ContactEditingTest@f5958c9]" started-at="2025-04-28T00:53:30 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:34 IST" duration-ms="3794" status="PASS">
+      </class> <!-- test.TC_001_LoginTest -->
+      <class name="test.TC_004_VerifyPastDateTest">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_VerifyPastDateTest@e25951c]" started-at="2025-05-06T16:53:35 IST" name="launchingAndLoadingURL" finished-at="2025-05-06T16:53:43 IST" duration-ms="7612" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+                <![CDATA[https://adactinhotelapp.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="editContactDetails()[pri:0, instance:test.TC_010_ContactEditingTest@f5958c9]" started-at="2025-04-28T00:53:34 IST" name="editContactDetails" description="Test editing existing contact details and page redirection upon contact click" finished-at="2025-04-28T00:53:53 IST" duration-ms="19507" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editContactDetails -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_010_ContactEditingTest@f5958c9]" started-at="2025-04-28T00:53:53 IST" name="browserClose" finished-at="2025-04-28T00:53:53 IST" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- test.TC_010_ContactEditingTest -->
-      <class name="test.TC_008_ContactSortTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_008_ContactSortTest@477b4cdf]" started-at="2025-04-28T00:53:07 IST" name="testDetails" finished-at="2025-04-28T00:53:07 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_008_ContactSortTest@477b4cdf]" started-at="2025-04-28T00:53:07 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:11 IST" duration-ms="3740" status="PASS">
+        <test-method signature="validateDateFieldErrorForPastCheckInDate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_VerifyPastDateTest@e25951c]" started-at="2025-05-06T16:53:43 IST" name="validateDateFieldErrorForPastCheckInDate" data-provider="BookingPastDate" finished-at="2025-05-06T16:53:51 IST" duration-ms="7939" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[veecee221188]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+                <![CDATA[XECM8G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2/5/25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3/5/25]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifyContactsAlphabeticalOrder()[pri:0, instance:test.TC_008_ContactSortTest@477b4cdf]" started-at="2025-04-28T00:53:11 IST" name="verifyContactsAlphabeticalOrder" description="Verify contacts are displayed in alphabetical order by last name" finished-at="2025-04-28T00:53:22 IST" duration-ms="10672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsAlphabeticalOrder -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_008_ContactSortTest@477b4cdf]" started-at="2025-04-28T00:53:22 IST" name="browserClose" finished-at="2025-04-28T00:53:22 IST" duration-ms="81" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- test.TC_008_ContactSortTest -->
-      <class name="test.TC_005_DuplicateContactTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_005_DuplicateContactTest@662ac478]" started-at="2025-04-28T00:52:44 IST" name="testDetails" finished-at="2025-04-28T00:52:44 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005_DuplicateContactTest@662ac478]" started-at="2025-04-28T00:52:44 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:48 IST" duration-ms="3798" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="testDuplicateContactAddition()[pri:0, instance:test.TC_005_DuplicateContactTest@662ac478]" started-at="2025-04-28T00:52:48 IST" name="testDuplicateContactAddition" finished-at="2025-04-28T00:52:52 IST" duration-ms="4323" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Duplicate contact was incorrectly added to the contact list.]]>
+              <![CDATA[Test failed: No error message shown for invalid past check-in date.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Duplicate contact was incorrectly added to the contact list.
+              <![CDATA[java.lang.AssertionError: Test failed: No error message shown for invalid past check-in date.
 at org.testng.Assert.fail(Assert.java:111)
-at test.TC_005_DuplicateContactTest.testDuplicateContactAddition(TC_005_DuplicateContactTest.java:60)
+at test.TC_004_VerifyPastDateTest.validateDateFieldErrorForPastCheckInDate(TC_004_VerifyPastDateTest.java:56)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -429,170 +229,189 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDuplicateContactAddition -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_005_DuplicateContactTest@662ac478]" started-at="2025-04-28T00:52:52 IST" name="browserClose" finished-at="2025-04-28T00:52:52 IST" duration-ms="81" status="PASS">
+        </test-method> <!-- validateDateFieldErrorForPastCheckInDate -->
+        <test-method is-config="true" signature="closeBrowserOnly()[pri:0, instance:test.TC_004_VerifyPastDateTest@e25951c]" started-at="2025-05-06T16:53:51 IST" name="closeBrowserOnly" finished-at="2025-05-06T16:53:52 IST" duration-ms="1306" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- test.TC_005_DuplicateContactTest -->
-      <class name="test.TC_011_DeleteContactAndLogoutTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_011_DeleteContactAndLogoutTest@233795b6]" started-at="2025-04-28T00:53:53 IST" name="testDetails" finished-at="2025-04-28T00:53:53 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_011_DeleteContactAndLogoutTest@233795b6]" started-at="2025-04-28T00:53:53 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:57 IST" duration-ms="3790" status="PASS">
+        </test-method> <!-- closeBrowserOnly -->
+      </class> <!-- test.TC_004_VerifyPastDateTest -->
+      <class name="test.TC_005_VerifyDateRetentionTest">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005_VerifyDateRetentionTest@15f47664]" started-at="2025-05-06T16:53:52 IST" name="launchingAndLoadingURL" finished-at="2025-05-06T16:54:00 IST" duration-ms="7824" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+                <![CDATA[https://adactinhotelapp.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="deleteContactByCity()[pri:0, instance:test.TC_011_DeleteContactAndLogoutTest@233795b6]" started-at="2025-04-28T00:53:57 IST" name="deleteContactByCity" description="Test deleting a contact by clicking on City and verifying deletion by City name" finished-at="2025-04-28T00:54:07 IST" duration-ms="10231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteContactByCity -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_011_DeleteContactAndLogoutTest@233795b6]" started-at="2025-04-28T00:54:07 IST" name="browserClose" finished-at="2025-04-28T00:54:08 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- test.TC_011_DeleteContactAndLogoutTest -->
-      <class name="test.TC_004_MandatoryAndSomeOptionalTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@31190526]" started-at="2025-04-28T00:52:35 IST" name="testDetails" finished-at="2025-04-28T00:52:35 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@31190526]" started-at="2025-04-28T00:52:35 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:39 IST" duration-ms="3670" status="PASS">
+        <test-method signature="validateCheckInAndOutDatesRetained(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005_VerifyDateRetentionTest@15f47664]" started-at="2025-05-06T16:54:00 IST" name="validateCheckInAndOutDatesRetained" data-provider="BookingData" finished-at="2025-05-06T16:54:03 IST" duration-ms="2725" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[veecee221188]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+                <![CDATA[XECM8G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2/5/25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3/5/25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckInAndOutDatesRetained -->
+        <test-method is-config="true" signature="closeBrowserOnly()[pri:0, instance:test.TC_005_VerifyDateRetentionTest@15f47664]" started-at="2025-05-06T16:54:03 IST" name="closeBrowserOnly" finished-at="2025-05-06T16:54:04 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserOnly -->
+      </class> <!-- test.TC_005_VerifyDateRetentionTest -->
+      <class name="test.TC_003_VerifyInvalidCheckInDateTest">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_VerifyInvalidCheckInDateTest@928763c]" started-at="2025-05-06T16:53:18 IST" name="launchingAndLoadingURL" finished-at="2025-05-06T16:53:26 IST" duration-ms="8056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="addContactWithMandatoryAndSomeOptionalFields()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@31190526]" started-at="2025-04-28T00:52:39 IST" name="addContactWithMandatoryAndSomeOptionalFields" finished-at="2025-04-28T00:52:44 IST" duration-ms="5104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addContactWithMandatoryAndSomeOptionalFields -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_004_MandatoryAndSomeOptionalTest@31190526]" started-at="2025-04-28T00:52:44 IST" name="browserClose" finished-at="2025-04-28T00:52:44 IST" duration-ms="75" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- test.TC_004_MandatoryAndSomeOptionalTest -->
-      <class name="test.TC_002_LoginTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:20 IST" name="testDetails" finished-at="2025-04-28T00:52:20 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:20 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:24 IST" duration-ms="3638" status="PASS">
+        <test-method signature="validateDateFieldError(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_VerifyInvalidCheckInDateTest@928763c]" started-at="2025-05-06T16:53:26 IST" name="validateDateFieldError" data-provider="getHotelBookingData" finished-at="2025-05-06T16:53:34 IST" duration-ms="7877" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[veecee221188]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+                <![CDATA[XECM8G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[15/5/2025]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[11/5/25]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No error shown for invalid date]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No error shown for invalid date
+at org.testng.Assert.fail(Assert.java:111)
+at test.TC_003_VerifyInvalidCheckInDateTest.validateDateFieldError(TC_003_VerifyInvalidCheckInDateTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifyLogin()[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:24 IST" name="verifyLogin" finished-at="2025-04-28T00:52:25 IST" duration-ms="665" status="PASS">
+        </test-method> <!-- validateDateFieldError -->
+        <test-method is-config="true" signature="closeBrowserOnly()[pri:0, instance:test.TC_003_VerifyInvalidCheckInDateTest@928763c]" started-at="2025-05-06T16:53:34 IST" name="closeBrowserOnly" finished-at="2025-05-06T16:53:35 IST" duration-ms="1294" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:25 IST" name="browserClose" finished-at="2025-04-28T00:52:25 IST" duration-ms="69" status="PASS">
+        </test-method> <!-- closeBrowserOnly -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:test.TC_003_VerifyInvalidCheckInDateTest@928763c]" started-at="2025-05-06T16:54:04 IST" name="browserQuit" finished-at="2025-05-06T16:54:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_002_LoginTest@7dcf94f8]" started-at="2025-04-28T00:52:25 IST" name="tearDown" finished-at="2025-04-28T00:52:25 IST" duration-ms="156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test.TC_002_LoginTest -->
-      <class name="test.TC_007_VerifyContactDetailsTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@3eb25e1a]" started-at="2025-04-28T00:52:59 IST" name="testDetails" finished-at="2025-04-28T00:52:59 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_007_VerifyContactDetailsTest@3eb25e1a]" started-at="2025-04-28T00:52:59 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:53:03 IST" duration-ms="3741" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="verifyContactDetails()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@3eb25e1a]" started-at="2025-04-28T00:53:03 IST" name="verifyContactDetails" description="Verify contact details are displayed correctly after adding" finished-at="2025-04-28T00:53:07 IST" duration-ms="4058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactDetails -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_007_VerifyContactDetailsTest@3eb25e1a]" started-at="2025-04-28T00:53:07 IST" name="browserClose" finished-at="2025-04-28T00:53:07 IST" duration-ms="75" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- test.TC_007_VerifyContactDetailsTest -->
-      <class name="test.TC_003_AddContactMandatoryFieldsTest">
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:25 IST" name="testDetails" finished-at="2025-04-28T00:52:25 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:25 IST" name="launchingAndLoadingURL" finished-at="2025-04-28T00:52:29 IST" duration-ms="4476" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method signature="addContactWithMandatoryFields()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:29 IST" name="addContactWithMandatoryFields" finished-at="2025-04-28T00:52:35 IST" duration-ms="5554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addContactWithMandatoryFields -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:35 IST" name="browserClose" finished-at="2025-04-28T00:52:35 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TC_003_AddContactMandatoryFieldsTest@229f66ed]" started-at="2025-04-28T00:52:35 IST" name="tearDown" finished-at="2025-04-28T00:52:35 IST" duration-ms="153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test.TC_003_AddContactMandatoryFieldsTest -->
-    </test> <!-- Contact List App Tests -->
+        </test-method> <!-- browserQuit -->
+      </class> <!-- test.TC_003_VerifyInvalidCheckInDateTest -->
+    </test> <!-- LoginTest -->
   </suite> <!-- ContactListAppSuite -->
 </testng-results>

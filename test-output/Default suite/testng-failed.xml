@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.TC_001_SignupTest">
+      <class name="test.TC_004_ValidatePastCheckInDateTest">
         <methods>
           <include name="launchingAndLoadingURL"/>
-          <include name="setup"/>
-          <include name="sigupTest" invocation-numbers="0 1"/>
+          <include name="reportInitialization"/>
+          <include name="validateDateFieldErrorForPastCheckInDate"/>
+          <include name="reportClose"/>
           <include name="browserClose"/>
         </methods>
-      </class> <!-- test.TC_001_SignupTest -->
+      </class> <!-- test.TC_004_ValidatePastCheckInDateTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
