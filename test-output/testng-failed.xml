@@ -8,25 +8,23 @@
     <parameter name="browser" value="firefox"/>
     <parameter name="url" value="https://adactinhotelapp.com"/>
     <classes>
-      <class name="test.TC_003_VerifyInvalidCheckInDateTest">
-        <methods>
-          <include name="closeBrowserOnly"/>
-          <include name="launchingAndLoadingURL"/>
-          <include name="reportInitialization"/>
-          <include name="reportClose"/>
-          <include name="validateDateFieldError" invocation-numbers="0"/>
-          <include name="browserQuit"/>
-        </methods>
-      </class> <!-- test.TC_003_VerifyInvalidCheckInDateTest -->
-      <class name="test.TC_004_VerifyPastDateTest">
+      <class name="test.TC_006_VerifyPastDateTest">
         <methods>
           <include name="closeBrowserOnly"/>
           <include name="launchingAndLoadingURL"/>
           <include name="reportInitialization"/>
           <include name="validateDateFieldErrorForPastCheckInDate" invocation-numbers="0"/>
-          <include name="reportClose"/>
         </methods>
-      </class> <!-- test.TC_004_VerifyPastDateTest -->
+      </class> <!-- test.TC_006_VerifyPastDateTest -->
+      <class name="test.TC_005_VerifyInvalidCheckInDateTest">
+        <methods>
+          <include name="closeBrowserOnly"/>
+          <include name="validateDateFieldError" invocation-numbers="0"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="reportInitialization"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- test.TC_005_VerifyInvalidCheckInDateTest -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [ContactListAppSuite] -->

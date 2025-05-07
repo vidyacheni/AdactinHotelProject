@@ -10,7 +10,7 @@ import base.ProjectSpecificationMethods;
 import pages.HotelBookingPage;
 import pages.LoginPage;
 
-public class TC_004_VerifyPastDateTest extends ProjectSpecificationMethods 
+public class TC_006_VerifyPastDateTest extends ProjectSpecificationMethods 
 {
 
     @Test(dataProvider = "BookingPastDate")
@@ -21,7 +21,7 @@ public class TC_004_VerifyPastDateTest extends ProjectSpecificationMethods
     	
     	System.out.println("Test method started");
         // Create ExtentReport test instance
-        test = extent.createTest("Invalid Past Check-In Date Test for user: " + username);
+        test = extent.createTest("TC_006_VerifyPastDateTest");
 
         // Step 1: Login
         LoginPage loginPage = new LoginPage(driver);

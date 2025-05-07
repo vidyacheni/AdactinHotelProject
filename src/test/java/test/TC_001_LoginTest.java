@@ -15,7 +15,7 @@ public class TC_001_LoginTest extends ProjectSpecificationMethods {
     @Test(dataProvider = "getLoginData")
     public void loginTest(String username, String password) {
         // Create a new test in ExtentReport
-        test = extent.createTest("Login Test for user: " + username);
+        test = extent.createTest("TC_001_LoginTest");
 
         // Log starting of the test
         test.info("Starting login test for user: " + username);

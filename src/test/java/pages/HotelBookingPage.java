@@ -50,8 +50,76 @@ public class HotelBookingPage extends UtilityClass {
     @FindBy(id = "dep_date_0")
     private WebElement displayedCheckOutDate;
     
+    @FindBy(xpath = "//input[@id='location_0']") // Adjust this if not correct
+    private WebElement selectedLocationElement;
     
+    // Locators for Adults per Room dropdown
+    @FindBy(id = "adult_room")
+    private WebElement adultsPerRoomDropdown;
+
+    // Locators for Children per Room dropdown
+    @FindBy(id = "child_room")
+    private WebElement childrenPerRoomDropdown;
     
+    @FindBy(id = "radiobutton_0")
+    private WebElement radioButtonFirstHotel;
+
+    @FindBy(id = "continue")
+    private WebElement continueButton;
+
+    @FindBy(id = "price_night_0")
+    private WebElement totalPriceField;
+
+    @FindBy(id = "total_price_0")
+    private WebElement finalBilledPriceField;
+    
+    @FindBy(id = "order_no")
+    private WebElement orderNumberField;
+
+    @FindBy(id = "first_name")
+    private WebElement firstNameField;
+
+    @FindBy(id = "last_name")
+    private WebElement lastNameField;
+
+    @FindBy(id = "address")
+    private WebElement billingAddressField;
+
+    @FindBy(id = "cc_num")
+    private WebElement creditCardField;
+
+    @FindBy(id = "cc_type")
+    private WebElement cardTypeDropdown;
+
+    @FindBy(id = "cc_exp_month")
+    private WebElement expMonthDropdown;
+
+    @FindBy(id = "cc_exp_year")
+    private WebElement expYearDropdown;
+
+    @FindBy(id = "cc_cvv")
+    private WebElement cvvField;
+
+    @FindBy(id = "book_now")
+    private WebElement bookNowButton;
+    
+      
+    
+    public String getSelectedHotelLocation() {
+        return selectedLocationElement.getAttribute("value"); // Or getText(), depending on HTML
+    }
+
+    public void selectAdultsPerRoom(String adults) {
+        adultsPerRoomDropdown.click();
+        adultsPerRoomDropdown.sendKeys(adults); // You can also use Select class for dropdowns
+    }
+
+    // Methods to select Children per Room
+    public void selectChildrenPerRoom(String children) {
+        childrenPerRoomDropdown.click();
+        childrenPerRoomDropdown.sendKeys(children); // You can also use Select class for dropdowns
+    }
+
     
        // Actions
     public void selectLocation(String location) {
@@ -144,4 +212,94 @@ public class HotelBookingPage extends UtilityClass {
             return false;
         }
     }
+    
+    
+    
+    /**
+     * Select the first hotel radio button
+     */
+    public void selectFirstHotel() {
+        radioButtonFirstHotel.click();
+    }
+
+    /**
+     * Click the Continue button
+     */
+    public void clickContinue() {
+        continueButton.click();
+    }
+
+    /**
+     * Get the total price (before adding 10%)
+     */
+    public double getTotalPrice() {
+        String price = totalPriceField.getAttribute("value");
+        return extractNumber(price);
+    }
+
+    /**
+     * Get the final billed price (including 10% addition)
+     */
+    public double getFinalBilledPrice() {
+        String price = finalBilledPriceField.getAttribute("value");
+        return extractNumber(price);
+    }
+ 
+    private double extractNumber(String priceText) {
+        // Remove all non-digit and non-decimal characters
+        String numeric = priceText.replaceAll("[^0-9.]", "");
+        return Double.parseDouble(numeric);
+    }
+    
+  
+ // Booking methods
+    public void enterFirstName(String firstName) {
+        firstNameField.sendKeys(firstName);
+    }
+
+    public void enterLastName(String lastName) {
+        lastNameField.sendKeys(lastName);
+    }
+
+    public void enterBillingAddress(String address) {
+        billingAddressField.sendKeys(address);
+    }
+
+    public void enterCreditCardNo(String cardNo) {
+        creditCardField.sendKeys(cardNo);
+    }
+
+    public void selectCreditCardType(String type) {
+        selectDropDownUsingText(cardTypeDropdown, type);
+    }
+
+    public void selectExpiryMonth(String month) {
+        selectDropDownUsingText(expMonthDropdown, month);
+    }
+
+    public void selectExpiryYear(String year) {
+        selectDropDownUsingText(expYearDropdown, year);
+    }
+
+    public void enterCVVNumber(String cvv) {
+        cvvField.sendKeys(cvv);
+    }
+
+    public void clickBookNow() {
+        bookNowButton.click();
+    }
+    
+    
+    public void selectDropDownUsingText(WebElement element, String text) {
+        Select dropdown = new Select(element);
+        dropdown.selectByVisibleText(text);
+    }
+    
+    public String getOrderNumber() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(driver -> !orderNumberField.getAttribute("value").isEmpty());
+        return orderNumberField.getAttribute("value");
+    }
+
+    
 }

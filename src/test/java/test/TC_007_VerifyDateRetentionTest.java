@@ -10,7 +10,7 @@ import base.ProjectSpecificationMethods;
 import pages.HotelBookingPage;
 import pages.LoginPage;
 
-public class TC_005_VerifyDateRetentionTest extends ProjectSpecificationMethods {
+public class TC_007_VerifyDateRetentionTest extends ProjectSpecificationMethods {
 
     @Test(dataProvider = "BookingData")
     public void validateCheckInAndOutDatesRetained(String username, String password, String location, 
@@ -18,7 +18,7 @@ public class TC_005_VerifyDateRetentionTest extends ProjectSpecificationMethods 
                                                    String checkInDate, String checkOutDate) 
     {
         System.out.println("Test TC_105_VerifyDateRetainedTest started");
-        test = extent.createTest("TC_105 Verify Check-In & Check-Out Dates Retained for: " + username);
+        test = extent.createTest("TC_007_VerifyDateRetentionTest");
 
         // Step 1: Login
         LoginPage loginPage = new LoginPage(driver);

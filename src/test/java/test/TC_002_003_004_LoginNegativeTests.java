@@ -10,12 +10,12 @@ import java.io.File;
 import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 
-public class TC_002_LoginNegativeTests extends ProjectSpecificationMethods {
+public class TC_002_003_004_LoginNegativeTests extends ProjectSpecificationMethods {
 
     @Test
     public void TC_Login_001_EmptyUsernameAndPassword() {
         // Start the report node
-        test = extent.createTest("TC_Login_001 - Empty Username & Password");
+        test = extent.createTest("TC_Login_002 - Empty Username & Password");
 
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername("");
@@ -57,7 +57,7 @@ public class TC_002_LoginNegativeTests extends ProjectSpecificationMethods {
 
     @Test
     public void TC_Login_007_SpecialCharacters() {
-        test = extent.createTest("TC_Login_007 - Special Characters");
+        test = extent.createTest("TC_Login_004 - Special Characters");
 
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername("!@#$%");

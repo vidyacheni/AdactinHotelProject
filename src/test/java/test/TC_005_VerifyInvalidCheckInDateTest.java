@@ -12,14 +12,14 @@ import base.ProjectSpecificationMethods;
 import pages.HotelBookingPage;
 import pages.LoginPage;
 
-public class TC_003_VerifyInvalidCheckInDateTest extends ProjectSpecificationMethods {
+public class TC_005_VerifyInvalidCheckInDateTest extends ProjectSpecificationMethods {
 	
     @Test(dataProvider = "getHotelBookingData")
     public void validateDateFieldError(String username, String password, String location, String hotel,
                                        String roomType, String noOfRooms, String checkInDate, String checkOutDate) {
 
         // Create ExtentReport test instance
-        test = extent.createTest("Invalid Check-In Date Test for user: " + username);
+        test = extent.createTest(" TC_005_VerifyInvalidCheckInDateTest");
 
         // Step 1: Login
         
