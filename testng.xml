@@ -1,42 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="ContactListAppSuite" parallel="tests" thread-count="2" verbose="3">
 
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ContactListAppSuite"  verbose="3">
     <listeners>
         <listener class-name="utils.Listener" />
     </listeners>
 
-    <!-- Firefox -->
-    <test name="TestsOnFirefox">
-        <parameter name="browser" value="firefox"/>
-        <parameter name="url" value="https://adactinhotelapp.com"/>
-        <classes>
-            <class name="test.TC_001_LoginTest"/>
-            <class name="test.TC_002_003_004_LoginNegativeTests"/>
-            <class name="test.TC_005_VerifyInvalidCheckInDateTest"/>
-            <class name="test.TC_006_VerifyPastDateTest"/>
-            <class name="test.TC_007_VerifyDateRetentionTest"/>
-            <class name="test.TC_008_VerifyLocationTest"/>
-            <class name="test.TC_009_VerifyFinalPriceTest"/>
-            <class name="test.TC_010_VerifyOrderNumberTest"/>
-        </classes>
-    </test>
+```
+<test name="LoginTest">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://adactinhotelapp.com"/>
+    <classes>
+    	 <class name="test.TC_001_LoginTest"/>
+        <class name="test.TC_002_003_004_LoginNegativeTests"/>
+        <class name="test.TC_005_VerifyInvalidCheckInDateTest"/>
+    	<class name="test.TC_006_VerifyPastDateTest"/>
+    	<class name="test.TC_007_VerifyDateRetentionTest"/>
+    	<class name="test.TC_008_VerifyLocationTest"/>
+    	<class name="test.TC_009_VerifyFinalPriceTest"/>
+    	<class name="test.TC_010_VerifyOrderNumberTest"/>
+       
+        
+    </classes>
+</test>
+```
 
-    <!-- Edge -->
-    <test name="TestsOnEdge">
-        <parameter name="browser" value="edge"/>
-        <parameter name="url" value="https://adactinhotelapp.com"/>
-        <classes>
-            <class name="test.TC_001_LoginTest"/>
-            <class name="test.TC_002_003_004_LoginNegativeTests"/>
-            <class name="test.TC_005_VerifyInvalidCheckInDateTest"/>
-            <class name="test.TC_006_VerifyPastDateTest"/>
-            <class name="test.TC_007_VerifyDateRetentionTest"/>
-            <class name="test.TC_008_VerifyLocationTest"/>
-            <class name="test.TC_009_VerifyFinalPriceTest"/>
-            <class name="test.TC_010_VerifyOrderNumberTest"/>
-        </classes>
-    </test>
-
-</suite>
-
+</suite> run paraller on firefox and edge
